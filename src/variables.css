@@ -1,0 +1,35 @@
+:root {
+  /*fonts*/
+  --primary-font: "OpenSans";
+  --primary-bold-font: "OpenSans-bold";
+  --primary-light-font: "OpenSans-light";
+  --primary-italic-font: "OpenSans-italic";
+  --icon-font: "-fontAwesome";
+  --font-path: "../../fonts";
+
+  /*colors*/
+  --alert-background: #fffdf0;
+  --body-background: #eee;
+
+  --white: #ffffff;
+  --black: #000000;
+  --darker-grey: #bbb;
+  --lighter-grey: #f3f3f3;
+
+  /*openMrs colors*/
+  --highlight: darken(#009384, 15%);
+  --text: darken(#5b57a6, 20%);
+  --subtle-text: darken(var(--darker-grey), 25%);
+  --subtler-text: var(--darker-grey);
+  --disabled: #cccccc;
+  --bright-green: #00cc00;
+  --header-green: #00463f;
+
+  --link: #007fff;
+  --focus: #fffdf7;
+
+  --success: #a1d030;
+  --alert: #ffa000;
+  --error: #ff6666;
+  --success-background: #ddffdd;
+}
