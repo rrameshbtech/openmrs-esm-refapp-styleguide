@@ -16,3 +16,8 @@
 .icon-graph {
   background: url(./img/graph.svg) no-repeat;
 }
+
+.small {
+  min-width: 100px !important;
+  min-height: 45px;
+}
